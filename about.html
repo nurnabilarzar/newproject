@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nabila's Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #777;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 800px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  font: Verdana;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 15px;
+  padding: 0;
+}
+
+article {
+  float: left;
+  font: Verdana;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 13px;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align:center;
+  font-family: Impact;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+    display: inline;
+    
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+</style>
+</head>
+<body>
+
+<h1>Nur Nabila's Portfolio</h1>
+
+<header>
+  <img class="img-fluid" src="computer.jpg" class="rounded" width="980" height="400">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a class="active" href="main.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <p>Her name is Nur Nabila Binti Kamaron Arzar, a student from Universiti Teknologi MARA (UiTM) Melaka
+        pursuing Bachelor in Computer Science (Hons.) with objective of seeking job related to IT under Management or Support,
+        Human Resources or Administration. 
+    </p>
+    <h2>Experiences</h2>
+    <p>
+        Her high school life at SMK Serendah from year 2009 until 2013 in Science stream. Took SPM in 2013 and got 3A 1A- 1B+ 1B 2C+ 1C.
+        She continue her study at Kolej Matrikulasi Johor (KMJ) in Science stream and decided to take Bachelor in Computer Science
+        at Universiti Teknologi MARA (UiTM) Melaka from year 2016 until 2019.
+    </p>
+    <p>
+      On 2013, worked as Assistant at Kedai Buku dan Alat Tulis MJ Azizan Trading Sdn Bhd
+      and took care of payment for customer purchases, invoices and calls from clients.
+    </p>
+    <p>
+      Industrial training at Tuxuri Sdn Bhd. She learned web scraping using Python programming language and store data using SQLite statements.
+      Other than that, she learned Linux commands and web-based hosting service for version control, Github.
+    </p>
+    <h2>Skills</h2>
+    <p>
+      C++, Java, XML, SQL, MATLAB, Python, Microsoft Office, Photoshop and Adobe Illustrator.
+      Can converse in Bahasa and English.
+    </p>
+    <h2>Achievements</h2>
+    <p>
+      - Secretary of Journey to Civilization for Ethical, Social and Professional subject (September 2018)
+    </p>
+    <p>
+      - Bronze medal of International Innovation, Invention &
+      Creation (IIICE) Exhibition in Invention Category: Image
+      Processing of Butterfly Species Identification using
+      Convolutional Neural Network (CNN) (October 2018)
+    </p>
+    <p>
+      - Gold medal of International Innovation, Invention &
+      Creation (IIICE) Exhibition in Invention Category: The Identification of Nutrient Deficiency
+      on Palm Oil Leaf (October 2018)
+    </p>
+    <p>
+      - Secretary of Karnival ICT dan Matematik UiTM Melaka
+      Kampus Jasin (2017)
+    </p>
+    <p>
+      - Secretary of Kembara Merdeka dan 60 Tahun UiTM
+      Melaka Kampus Jasin (2016)
+    </p>
+  </article>
+</section>
+
+</body>
+</html>
