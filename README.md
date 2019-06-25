@@ -6,5 +6,5 @@
 - to open portfolio contact page, contact.html
 
 # Travel Agency
-- to open travel agency page, index.html
+- to open travel agency page, home.html
 
