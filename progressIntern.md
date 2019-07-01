@@ -185,7 +185,9 @@ for d in droughts['features']:
 
 ### **Web Scraping 2**
 
-- For Natural Disaster RSS Feed, there are four libraries need to be imported which are *requests*, *json*, *sqlite3*, and *BeautifulSoup* since the website has no *json* data but HTML. **BeautifulSoup** is a library that scrape information especially from **HTML** and **XML** files. 
+- For Natural Disaster RSS Feed, there are four libraries need to be imported which are *requests*, *json*, *sqlite3*, and *BeautifulSoup* since the website has no *json* data but HTML. **BeautifulSoup** is a library that scrape information especially from **HTML** and **XML** files.
+
+- 
 
 ## **HTML, CSS and Javascript**
 
