@@ -187,8 +187,6 @@ for d in droughts['features']:
 
 - For Natural Disaster RSS Feed, there are four libraries need to be imported which are *requests*, *json*, *sqlite3*, and *BeautifulSoup* since the website has no *json* data but HTML. **BeautifulSoup** is a library that scrape information especially from **HTML** and **XML** files.
 
-- 
-
 ## **HTML, CSS and Javascript**
 
 ## **Task 3**
@@ -230,5 +228,3 @@ height: 300px;
 ## **Task 4**
 
 - Next is to learn HTML, CSS and Javascript. Javascript is a computer programming language to create interactive effects with web browsers. Second is, create travel agency (source:) [Youtube](https://www.youtube.com/watch?v=MaP3vO-vEsg) by following tutorial on youtube.
-
-- Top of the website is a fixed navigation bar with navigations links.
