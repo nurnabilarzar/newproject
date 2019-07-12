@@ -224,7 +224,3 @@ height: 300px;
 - Image shown below is Contact page. Contact page also is just the same with Home and About page. Header with an image style with CSS, left side is navigation bar that can go back to Home or About page if click on it. Contact page also have social media that will be directed to the page if click on it.
 
 ![alt text](image_2.png "Portfolio: Contact page")
-
-## **Task 4**
-
-- Next is to learn HTML, CSS and Javascript. Javascript is a computer programming language to create interactive effects with web browsers. Second is, create travel agency (source:) [Youtube](https://www.youtube.com/watch?v=MaP3vO-vEsg) by following tutorial on youtube.
